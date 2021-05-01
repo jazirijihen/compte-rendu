@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogue</title>
+    <link rel="stylesheet" type="text/css" href=" styles/mesStyles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="entoureimg">
+            <img alt="logo" src="images/logolivre.png" />
+        </div>
+        <h1> bienvenue sur le portail documentaire </h1>
+        <hr/>
+    </header>
+    <nav>
+        <a href="accueil.html"> accueil</a>
+        <a href="login.html"> mon compte</a>
+    </nav>
+    <section>
+        <h2>notre catalogue</h2>
+        <div id="formulaire">
+            <form action="catalogue.html" method="post">
+                <h3>choisir votre type de support</h3>
+                <filedest>
+                    <legend align="top">livres</legend><br>
+                    <select name="txlivres">
+                        <option>adulte</option>
+                        <option>adolescent</option>
+                        <option>jeunesse</option>
+                    </select>
+                </filedest>
+                <filedest>
+                    <legend align="top">revues</legend><br>
+                    <input list="revues" name="lirevues" id="lirevues" />
+                    <datalist id="revues">
+                        <option>journaliere</option>
+                        <option>hebdomadaire</option>
+                        <option>mensuelle</option>
+                    </datalist>
+                </filedest>
+                <filedest>
+                    <legend align="top">numeriques</legend><br>
+                    <input type="radio" name="rdnumeriques" value="cd" id="rdnumcd" />
+                    <label for="rdnumeriques-cd">cd </label>
+                    <input type="radio" name="rdnumeriques" value="dvd" id="rdnumdvd" />
+                    <label for="rdnumeriques-dvd">dvd </label>
+
+                </filedest>
+                </br>
+                <input type="submit" value="soumettre" class="bouton" />
+            </form>
+        </div>
+    </section>
+    <footer id="fondplestin">
+        <hr/>
+        <p>plestin-les-greves,levraoueg
+            <span calss="mailto"><a  href=mailto:jihen99.jaziri@gmail.com> nous ecrire</a> </span></p>
+    </footer>
+</body>
+
+</html>

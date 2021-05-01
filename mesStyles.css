@@ -1,0 +1,52 @@
+        #info {
+            border: solid 10px black;
+            margin: 50px;
+            padding: 30px;
+            background-color: lightgray;
+        }
+        
+        #inscript {
+            border: solid 10px black;
+            padding: 30px;
+            background: yellow;
+        }
+        
+        #pret {
+            border: solid 10px black;
+            margin: 30px;
+            background: pink;
+        }
+        
+        section {
+            font-family: Arial;
+            background-color: rgb(255, 229, 155);
+        }
+        
+        #formulaire {
+            position: relative;
+            margin: auto;
+            width: 300px;
+        }
+        
+        #lbsaisie {
+            display: inline-block;
+            width: 140px;
+            line-height: 30px;
+        }
+        
+        .bouton {
+            width: 360 px;
+        }
+        
+        .entoureimg {
+            float: right;
+        }
+        
+        #fondplestin {
+            background-image: url();
+            color: yellow;
+            font-size: 22px;
+            font-style: oblique;
+            text-align: left;
+            font-weight: bold;
+        }
